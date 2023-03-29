@@ -1,0 +1,303 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a.active{
+    border-bottom: 1px solid #0088FF;
+    padding-bottom: 10px;
+}
+
+.flex-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.navigation{
+    border-bottom: 1px solid black;
+}
+
+.flex-logo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.flex-logo ul li{
+    display: inline-block;
+    padding: 0 1em;
+    color: rgb(65, 65, 65);
+    
+}
+
+.nav-size{
+    width: 50%;
+}
+
+.logo img{
+    width: 60px;
+}
+
+/* introduction section */
+
+.intro-portfolio{
+    padding: 2em;
+}
+.intro-portfolio h1{
+    padding-top: 10px;
+    padding-left: 0;
+    font-size: 5em;
+    margin: 0;
+}
+
+.intro-portfolio p{
+    width: 60%;
+    font-size: 1.2em;
+}
+
+.heading-section a{
+    border-bottom: 1px solid blue;
+}
+
+.heading-section{
+    width: 70%;
+}
+
+.image-section{
+    width: 40%;
+}
+
+.image-section img{
+    width: 100%;
+    height: 400px;
+}
+
+.what-i-do{
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+    padding: 3em;
+}
+
+.what-i-do h1{
+    font-size: 2.3em;
+    width: 60%;
+}
+.other-links{
+    padding: 2em;
+}
+.useful-link{
+    width: 33%;
+}
+
+.useful-link img{
+    width: 50px;
+}
+
+.useful-link a{
+    color: rgb(12, 56, 203);
+}
+
+.useful-link p{
+    width: 80%;
+}
+
+/* working together section */
+
+.working-together{
+    padding: 7em 2em;
+    background-color: #004a8b;
+    color: white;
+}
+
+.working-together h1{
+    text-align: center;
+    font-size: 2.8em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.email-link{
+    text-align: center;
+    padding: 3em 0 0 0;
+}
+
+.email-link a{
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #fff;
+    color: black;
+    border-radius: 25px;
+}
+
+/* more about me information */
+.more-bio{
+    padding: 3em;
+    background-color: rgb(190, 190, 190);
+}
+
+#about-me-info{
+    width: 50%;
+    padding: 2em;
+}
+
+#about-me-info h1{
+    font-size: 3em;
+}
+
+/* project page */
+.project-details{
+    padding: 4em 3em;
+    background-color: rgb(222, 222, 222);
+}
+#projects {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+}
+  
+#projects td, #projects th {
+    border: 1px solid rgb(224, 224, 224);
+    padding: 10px;
+}
+  
+#projects tr:hover{
+    background-color:rgb(212, 212, 212);
+}
+#projects tr:nth-child(even){
+    background-color:#f0f0f0;
+}
+
+#projects th {
+    padding-bottom: 11px;
+    padding-top: 11px;
+    color: #fff;
+    background-color: #0088FF;
+}
+
+.intro-content-text{
+    width: 70%;
+}
+
+.introduction-portfolio{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.introduction-portfolio h1{
+    font-size: 4em;
+}
+
+.intro-content-image img{
+    width: 300px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 3em;
+}
+
+/* background section */
+
+.background-section{
+    padding: 7em 2em;
+    background-color: rgb(242, 242, 242);
+}
+
+#background-id{
+    align-items: top;
+}
+
+.background-section span{
+    color: rgb(0, 88, 228);
+}
+
+.background-profile{
+    width: 60%;
+    padding-right: 4em;
+}
+
+.skills{
+    width: 30%;
+}
+
+.background-profile p{
+    line-height: 1.8em;
+}
+
+.skills ul{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.skills ul li{
+    display: block;
+    padding-bottom: 0.3em;
+}
+
+/* experience section */
+.experience{
+    padding: 5em 2em;
+}
+
+.experience-heading{
+    color: rgb(82, 82, 82);
+    width: 50%;
+}
+
+.experience-content{
+    width: 50%;
+}
+
+/* footer section */
+.footer-info{
+    padding: 4em 3em;
+    background-color: rgb(0, 58, 120);
+    color: white;
+}
+
+.footer-info h2{
+    font-size: 3em;
+}
+
+.contact-footer{
+    width: 50%;
+    padding-bottom:2em;
+}
+
+.socials{
+    padding-top: 3.5em;
+}
+
+.socials ul li{
+    border-bottom: 10px;
+}
+
+.socials ul li a{
+    color: white;
+    display: inline-block;
+    border-bottom: 1px dashed white;
+
+}
+
+footer{
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    text-align: center;
+    padding:1em;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
